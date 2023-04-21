@@ -29,6 +29,7 @@ int main() {
 	string sample3 = "abcabcabcabca";
 	string sample4 = "abcabcabcabd";
 	string sample5 = "abc";
+	string sample6 = "";
 
 
 	test(sample1, 6);
@@ -38,4 +39,5 @@ int main() {
 	test(sample1, 4);
 	test(sample1, 0);
 	test(sample5, 3);
+	test(sample6, 3);
 }
