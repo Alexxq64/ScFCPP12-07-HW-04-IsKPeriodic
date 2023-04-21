@@ -12,7 +12,7 @@ bool isKPeriodic(const string& str, int k) {
 	// the homework condition doesn't indicate whether the case of a single repetition is actually is a k-periodical; if not, uncomment next line
 	//if (str.length() == k) return false;
 	string pattern = str.substr(0, k);
-	for (size_t i = 0; i < str.length() / k; i++) {
+	for (size_t i = 1; i < str.length() / k; i++) {
 		if (str.substr(i * k, k) != pattern) return false;
 	}
 	return true;
