@@ -19,7 +19,7 @@ bool isKPeriodic(const string& str, int k) {
 }
 
 void test(const string& str, int k) {
-	cout << str << " k = " << k << "   " << (isKPeriodic(str, k) ? "True" : "False") << endl;
+	cout << str << "            length is " << str.length() << "  k = " << k << "   " << (isKPeriodic(str, k) ? "True" : "False") << endl;
 
 }
 
