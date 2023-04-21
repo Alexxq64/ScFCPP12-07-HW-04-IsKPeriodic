@@ -4,7 +4,7 @@ using namespace std;
 
 bool isKPeriodic(const string& str, int k) {
 	if (k <= 0) {
-		//if there need to explain this case to the user, uncomment next line
+		//if there is a need to explain this case to the user, uncomment next line
 		//cout << "k must be more than zero!" << endl;
 		return false;
 	}
